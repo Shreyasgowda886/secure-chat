@@ -1,3 +1,4 @@
+print("FLASK APP STARTED SUCCESSFULLY")
 from flask import Flask, render_template, request, redirect, session, flash, jsonify, url_for
 import sqlite3
 import bcrypt
